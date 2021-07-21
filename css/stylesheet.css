@@ -1,0 +1,124 @@
+/*all pages - navigation bar starts here */
+li {
+    border-right: 1px solid #bbb
+    
+    
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#ff7729 ;
+    
+      }
+      .ul-top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: grey;
+      }
+      body {
+      font-family: Arial;
+      margin: 0;
+    }
+    /*all pages - navigation bar ends here */
+
+
+    /* Header/Logo Title */
+    .header {
+      padding: 10px;
+      text-align: center;
+      background: #ff7729;
+      color: white;
+      font-size: 60px;
+    }
+    
+    /* main Page Content */
+      .content {padding:100px;}
+
+      .p1 {
+float: left;
+padding-left: 20px;
+font-size: large;
+padding-bottom: 200px;}
+
+
+.logo1 {
+  position:absolute; left:1020px; top:525px;}
+/*all pages - footer */
+.webfooter {
+background: #ff7729;
+width: 100%;
+float: left;
+}
+/*all pages - footer text */
+.p-footer {
+padding:20px;
+width:100%;
+float:right;
+font-size: larger;
+}
+/*siteplan - header text */
+.h2 {
+font-size: larger;
+}
+.p2 {
+font-size:larger;
+}
+
+.text {
+  float: left;
+  padding-left: 20px;
+  font-size: large;
+  padding-bottom: 200px;}
+
+.form-table {
+  border: 2px solid #ff7729;
+  background-color: rgb(209, 209, 209);
+  font-size: larger;
+}
+.p3 {
+font-size: larger;
+}
+.sitemap1 {
+position: absolute; left:25px; top:400px;
+}
+.sitemap2 {
+position: absolute; left:1150px; top:400px;
+
+}
+.storyboard1 {
+position: absolute; left:150px; top:750px;
+
+
+}
+/*Media quirries start here*/
+@media only screen and (max-width:600px){
+  .form-table {
+width: 100%
+  }
+  .p1 {
+  float:left;
+  size: x-large;
+  }
+.bye {
+display:none;
+
+}
+}
