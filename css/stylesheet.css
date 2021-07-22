@@ -93,6 +93,7 @@ font-size:larger;
   padding-bottom: 200px;}
 
 .form-table {
+ 
   border: 2px solid #ff7729;
   background-color: rgb(209, 209, 209);
   font-size: larger;
@@ -109,20 +110,51 @@ position: absolute; left:1150px; top:400px;
 }
 .storyboard1 {
 position: absolute; left:150px; top:750px;
-
-
 }
+.footerme {
+  background: #ff7729;
+  width: 100%;
+  float: left;
+  border-top: 4px solid black;
+  margin-block-start: 150px;
+  }
+
+
+
+
+.div1 {position:absolute; left:950px; top:410px;}
 /*Media quirries start here*/
-@media only screen and (max-width:600px){
+@media only screen and (max-width:1200px){
   .form-table {
-width: 100%
+
+float:left;
   }
   .p1 {
   float:left;
   size: x-large;
+
   }
 .bye {
 display:none;
 visibility: hidden;
 }
+.navtop {
+float: right;} 
+
+.form1 {
+width:100%;
+font-size:larger;
+float:none;
+position: absolute; left:5px; top:250px;
+}
+.logo1 {
+display:none;
+visibility: hidden;
+
+}
+.div1 {position:absolute; left:10px; top:500px;}
+}
+.footerme {
+  margin-block-start: 600px;
+
 }
