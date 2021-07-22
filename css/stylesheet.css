@@ -123,6 +123,6 @@ width: 100%
   }
 .bye {
 display:none;
-
+visibility: hidden;
 }
 }
