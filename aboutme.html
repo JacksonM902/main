@@ -59,9 +59,9 @@
    
    
     <label for="First name">First name:</label><br>
-<input type="text" name="First name"><br>
+<input type="text" name="First name" minlength="3"><br>
 <label for="Last name">Last name:</label><br>
-<input type="text" name="Last name"><br>
+<input type="text" name="Last name" minlength="3"><br>
 <label for="birthday">Birthday:</label><br>
 <input type="date" name="birthday"><br>
 <label for="Email">Email address:</label><br>
@@ -80,7 +80,7 @@
 <option value="Saskathewan">Saskathewan</option>
 </select><br>
 <label for="Postal code">Postal code:</label><br>
-<input type="text" name="Postal code" min-length="5" placeholder="Ex. B3K-2Z1"><br>
+<input type="text" name="Postal code" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="Ex. B3K 2Z1"><br>
 <label for="City">City:</label><br>
 <input type="text" name="city"><br>
 <label for="What have you learned?">What have you learned?</label><br>
