@@ -132,7 +132,7 @@ float:left;
   .p1 {
   float:left;
   size: x-large;
-
+   text-align: left;
   }
 .bye {
 display:none;
